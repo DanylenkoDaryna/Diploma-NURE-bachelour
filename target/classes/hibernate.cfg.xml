@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.connection.driver_class">${DB_DRIVER}</property>
+        <!-- Assume ИМЯ ВАШЕЙ БД is the database name -->
+        <property name="hibernate.connection.url">${DB_URL}</property>
+        <property name="hibernate.connection.username">${DB_USER_NAME}</property>
+        <property name="hibernate.connection.password">${DB_USER_PASS}</property>
+
+        <!-- List of XML mapping files -->
+        <mapping class="ua.nure.ki.cards.data.Test"/>
+        <mapping class="ua.nure.ki.cards.data.TestCategory"/>
+        <mapping class="ua.nure.ki.cards.data.Result"/>
+        <mapping class="ua.nure.ki.cards.data.User"/>
+        <mapping class="ua.nure.ki.cards.data.Group"/>
+        <mapping class="ua.nure.ki.cards.data.GroupCategory"/>
+
+    </session-factory>
+</hibernate-configuration>

@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Main extends Application {
 
     @Override
@@ -18,5 +21,9 @@ public class Main extends Application {
 
     public static void main(String[] args) throws Exception {
         launch(args);
+
+//        LocalDateTime date = LocalDateTime.now();
+//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd h:m:s");
+//        String text = date.format(formatter);
     }
 }
