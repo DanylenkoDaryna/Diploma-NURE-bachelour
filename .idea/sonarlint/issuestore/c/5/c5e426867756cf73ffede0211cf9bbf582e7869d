@@ -1,0 +1,31 @@
+
+ssquid:S001165"TRename this field "menu_bar2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚×˜«8¹·ºˆ´-
+zsquid:S00116k"]Rename this field "label_TestCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½×ò¾ÿÿÿÿÿ
+ssquid:S00116>"VRename this field "File_Return" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÕêÈÿÿÿÿÿ
+psquid:S00116\"YRename this field "choicebox_Test" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸úøq
+{squid:S00116q"WRename this field "label_Result" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óï¿Âıÿÿÿÿ8«õî÷²-
+wsquid:S00116P"XRename this field "button_dialog" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¡÷¢8Ô°¡ˆ´-
+~squid:S00116Y"aRename this field "choicebox_TestCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ø‹üÿÿÿÿ
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ä›§ˆ´-
+psquid:S00116G"XRename this field "label_Creator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬õ–®
+xsquid:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä®‹8˜û¿‰´-
+usquid:S001168"XRename this field "File_Generate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àöãèùÿÿÿÿ
+lsquid:S00116D"URename this field "Help_close" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ëƒ]
+qsquid:S00116V"YRename this field "choicebox_User" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µãÕ…
+Gsquid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼½Õˆ´-
+zsquid:S00116J"bRename this field "choicebox_GroupCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±à›…
+nsquid:S00116M"VRename this field "label_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀğÉ“
+squid:S00116_"[Rename this field "choicebox_Result" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¢¨Äşÿÿÿÿ8¼¸ø÷²-
+rsquid:S00116;"URename this field "File_Clear" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”é³áÿÿÿÿÿ
+{squid:S00116b"^Rename this field "label_GroupCategory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­°Ğşÿÿÿÿ
+Msquid:S1481š".Remove this unused "lineChart" local variable.(äşığ8º¥à‰´-
+vsquid:S00116t"RRename this field "res_Out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª©úòúÿÿÿÿ8›±Óø²-
+rsquid:S00116h"URename this field "label_User" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•êùÿÿÿÿ
+dsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ĞºÊ‰´-
+msquid:S00116n"URename this field "label_Test" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÊÁè
+rsquid:S00116S"ZRename this field "choicebox_Group" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ôÜ“
+ssquid:S00116e"VRename this field "label_Group" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•´Àøÿÿÿÿ
+wsquid:S00116w"XRename this field "results_chart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë®­Ş8Ÿ°Ü‰´-
+vsquid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(÷‹¾†ÿÿÿÿÿ8«õî÷²-
+ squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Òı»8«õî÷²-
+rsquid:S00116A"URename this field "Help_about" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ìŠÙşÿÿÿÿ

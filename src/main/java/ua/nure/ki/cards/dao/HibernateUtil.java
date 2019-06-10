@@ -1,6 +1,7 @@
 package ua.nure.ki.cards.dao;
 
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
 
@@ -10,12 +11,17 @@ public class HibernateUtil {
 
     private static SessionFactory createSessionFactory() {
 
-        try {
-            return new Configuration().configure().buildSessionFactory();
-        }catch (Throwable ex){
-            System.err.println("Daryna, initial SessionFactory creation failed: " + ex);
-            throw new ExceptionInInitializerError(ex);
-        }
+        Configuration configuration = new Configuration().configure("hibernate.cfg.xml");
+        configuration.addAnnotatedClass(ua.nure.ki.cards.data.Result.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.User.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.Group.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.GroupCategory.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.Test.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.TestCategory.class);
+        StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
+                .applySettings(configuration.getProperties());
+        return configuration.buildSessionFactory(builder.build());
+
     }
 
     public static SessionFactory getSessionFactory() {

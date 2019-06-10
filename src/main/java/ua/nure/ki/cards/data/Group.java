@@ -12,8 +12,8 @@ public class Group implements Serializable {
     @Column(name = "group_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int groupId;
-    @Column(name = "group_category_id")
-    private int grCategId;
+//    @Column(name = "group_category_id")
+//    private int grCategId;
     @Column(name = "group_name")
     private String groupName;
     @Column(name = "group_disable")
@@ -30,26 +30,21 @@ public class Group implements Serializable {
 
     public Group(){
         this.setGroupId(0);
-        this.setGrCategId(0);
+        //this.setGrCategId(0);
         this.setGroupName("Standart group");
         this.setGroupDisable(0);
     }
 
-    public Group(int grId, int grCategId, String grName, int grDisable){
+    public Group(int grId, /*int grCategId,*/ String grName, int grDisable){
         this.setGroupId(grId);
-        this.setGrCategId(grCategId);
+      //  this.setGrCategId(grCategId);
         this.setGroupName(grName);
         this.setGroupDisable(grDisable);
     }
 
     @Override
     public String toString() {
-        return "Group{" +
-                "group_id=" + getGroupId() +
-                ", gr_categ_id=" + getGrCategId() +
-                ", group_name='" + getGroupName() + '\'' +
-                ", group_disable=" + getGroupDisable() +
-                '}';
+        return "" + getGroupName();
     }
 
     public int getGroupId() {
@@ -60,13 +55,13 @@ public class Group implements Serializable {
         this.groupId = groupId;
     }
 
-    public int getGrCategId() {
-        return grCategId;
-    }
-
-    public void setGrCategId(int grCategId) {
-        this.grCategId = grCategId;
-    }
+//    public int getGrCategId() {
+//        return grCategId;
+//    }
+//
+//    public void setGrCategId(int grCategId) {
+//        this.grCategId = grCategId;
+//    }
 
     public String getGroupName() {
         return groupName;

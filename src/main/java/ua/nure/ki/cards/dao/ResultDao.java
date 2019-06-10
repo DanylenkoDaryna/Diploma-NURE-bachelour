@@ -4,7 +4,6 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import ua.nure.ki.cards.data.Result;
 
-import java.io.Serializable;
 import java.util.List;
 
 public class ResultDao implements IResultDao {
@@ -13,11 +12,14 @@ public class ResultDao implements IResultDao {
     private Session currentSession;
     private Transaction currentTransaction;
 
-    public ResultDao(){}
+    public ResultDao(){
+        hiberSessionUtill =new HibernateUtil();
+
+    }
 
     public Session openCurrentSession() {
-        currentSession = hiberSessionUtill.getSessionFactory().openSession();
-        return currentSession;
+        setCurrentSession(hiberSessionUtill.getSessionFactory().openSession());
+        return getCurrentSession();
     }
 
     public Session openCurrentSessionWithTransaction() {
@@ -37,13 +39,19 @@ public class ResultDao implements IResultDao {
 
     @Override
     public Object findById(Integer id) {
-        Result result = (Result) getCurrentSession().get(Result.class, id);
+        Result result =  getCurrentSession().get(Result.class, id);
         return result;
     }
 
     @Override
     public List findAll() {
         return null;
+    }
+
+    public List findAllby(Integer GroupId, Integer UserId, Integer TestId){
+        List<Result> groupTypes = (List<Result>) getCurrentSession().createQuery("from Result R " +
+                "where R.groupId = " + GroupId + " and R.concreteUser.userId = "+UserId + " and R.testId = " + TestId).list();
+        return groupTypes;
     }
 
     public HibernateUtil getHiberSessionUtill() {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.nure.ki.cards.controller.CardWindowController">
+    <top>
+        <MenuBar fx:id="menu_bar3" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menu_Return" mnemonicParsing="false" onAction="#goInMainWindow" text="Return" />
+                    </items></Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem fx:id="Help_about" mnemonicParsing="false" text="About" />
+                        <MenuItem fx:id="Help_close" mnemonicParsing="false" onAction="#closeAction" text="Close" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <bottom>
+        <Label fx:id="label_Creator" text="© ХНУРЭ, 2019. Все права защищены. Не коммерческое приложение. @delibertato" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Castellar" size="13.0" />
+            </font>
+        </Label>
+    </bottom>
+    <center>
+        <AnchorPane prefHeight="557.0" prefWidth="999.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="label_title" layoutX="403.0" layoutY="29.0" prefHeight="44.0" prefWidth="207.0" text="User`s Cognitive card">
+                    <font>
+                        <Font name="Elephant" size="18.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Label>
+            </children></AnchorPane>
+    </center>
+</BorderPane>

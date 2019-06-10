@@ -15,7 +15,7 @@ public class TestCategory implements Serializable {
     @Column(name = "test_category_name")
     private String testCategName;
 
-    @OneToMany(fetch=FetchType.LAZY, mappedBy = "TestCategory", cascade = CascadeType.ALL)
+    @OneToMany(fetch=FetchType.LAZY, mappedBy = "concreteTestCategory", cascade = CascadeType.ALL)
     private List<Test> tests = new ArrayList<Test>(10);
 
     public TestCategory(){
@@ -30,10 +30,7 @@ public class TestCategory implements Serializable {
 
     @Override
     public String toString() {
-        return "TestCategory{" +
-                "testCategId=" + getTestCategId() +
-                ", testCategName='" + getTestCategName() + '\'' +
-                "} \n";
+        return "" + getTestCategName();
     }
 
     public int getTestCategId() {

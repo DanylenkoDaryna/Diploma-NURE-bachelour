@@ -3,7 +3,7 @@ package ua.nure.ki.cards.dao;
 import java.io.Serializable;
 import java.util.List;
 
-public interface ITestDao <T, Id extends Serializable> {
+public interface ITestDao <T, Id extends Integer> {
 
     //  public void persist(T entity);
 

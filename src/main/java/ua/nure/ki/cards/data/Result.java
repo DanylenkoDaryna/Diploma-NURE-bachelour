@@ -11,8 +11,8 @@ public class Result implements Serializable {
     @Column(name = "result_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int resultId;
-    @Column(name = "user_id")
-    private int userId;
+//    @Column(name = "user_id")
+//    private int userId;
     @Column(name = "test_id")
     private int testId;
     @Column(name = "group_id")
@@ -22,10 +22,10 @@ public class Result implements Serializable {
     @Column(name = "mark")
     private int mark;
     @Column(name = "start_datetime")
-    @Temporal(TemporalType.TIMESTAMP)
+   // @Temporal(TemporalType.TIMESTAMP)
     LocalDateTime startDateTime;
     @Column(name = "stop_datetime")
-    @Temporal(TemporalType.TIMESTAMP)
+  //  @Temporal(TemporalType.TIMESTAMP)
     LocalDateTime stopDatetime;
     @Column(name = "time_of_test")
     private int timeOfTest;
@@ -49,7 +49,7 @@ public class Result implements Serializable {
 
     private Result(){
         this.setResultId(0);
-        this.setUserId(0);
+        //this.setUserId(0);
         this.setTestId(0);
         this.setGroupId(0);
         this.setTeacherId(0);
@@ -64,10 +64,10 @@ public class Result implements Serializable {
         this.setTotalUnit(0);
     }
 
-    private Result(int ResultId, int UserId, int TestId, int GroupId, int TeacherId ,int Mark,LocalDateTime start,
+    private Result(int ResultId, /*int UserId,*/ int TestId, int GroupId, int TeacherId ,int Mark,LocalDateTime start,
                    LocalDateTime stop, int TimeOfTest,float Average,float Percent, float PercentSimple,int HideResult, float TotalUnit ){
         this.setResultId(ResultId);
-        this.setUserId(UserId);
+       // this.setUserId(UserId);
         this.setTestId(TestId);
         this.setGroupId(GroupId);
         this.setTeacherId(TeacherId);
@@ -84,22 +84,9 @@ public class Result implements Serializable {
 
     @Override
     public String toString() {
-        return "Result{" +
-                "resultId=" + resultId +
-                ", userId=" + userId +
-                ", testId=" + testId +
-                ", groupId=" + groupId +
-                ", teacherId=" + teacherId +
-                ", mark=" + mark +
-                ", startDateTime=" + startDateTime +
-                ", stopDatetime=" + stopDatetime +
-                ", timeOfTest=" + timeOfTest +
-                ", averageAlternative=" + averageAlternative +
-                ", percent=" + percent +
-                ", percentSimple=" + percentSimple +
-                ", hideResult=" + hideResult +
-                ", totalUnit=" + totalUnit +
-                '}';
+        return "" + stopDatetime.getYear() + "-" +
+                stopDatetime.getMonth() + "-" +
+                stopDatetime.getDayOfMonth();
     }
 
     public int getResultId() {
@@ -110,13 +97,13 @@ public class Result implements Serializable {
         this.resultId = resultId;
     }
 
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
+//    public int getUserId() {
+//        return userId;
+//    }
+//
+//    public void setUserId(int userId) {
+//        this.userId = userId;
+//    }
 
     public int getTestId() {
         return testId;

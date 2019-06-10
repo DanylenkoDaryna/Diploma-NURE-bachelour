@@ -19,6 +19,7 @@ public class GroupCategory implements Serializable {
     private List<Group> groups=new ArrayList<Group>(3);
 
 
+
     public GroupCategory(){
          this.setGrCategId(0);
          this.setGrCategName("Standart group category");
@@ -32,10 +33,7 @@ public class GroupCategory implements Serializable {
 
     @Override
     public String toString() {
-        return "GroupCategory{" +
-                "gr_categ_id=" + getGrCategId() +
-                ", gr_categ_name='" + getGrCategName() + '\'' +
-                '}';
+        return "" + getGrCategName();
     }
 
     public int getGrCategId() {

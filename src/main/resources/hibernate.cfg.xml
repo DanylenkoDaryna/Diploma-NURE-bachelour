@@ -6,11 +6,13 @@
 
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
-        <property name="hibernate.connection.driver_class">${DB_DRIVER}</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <!-- Assume ИМЯ ВАШЕЙ БД is the database name -->
-        <property name="hibernate.connection.url">${DB_URL}</property>
-        <property name="hibernate.connection.username">${DB_USER_NAME}</property>
-        <property name="hibernate.connection.password">${DB_USER_PASS}</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1/testsdb</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.current_session_context_class">thread</property>
 
         <!-- List of XML mapping files -->
         <mapping class="ua.nure.ki.cards.data.Test"/>

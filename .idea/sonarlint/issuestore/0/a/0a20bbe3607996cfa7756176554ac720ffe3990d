@@ -1,4 +1,24 @@
 
-|squid:S1171A"YMove the contents of this initializer to a standard constructor or to field initializers.(öÒÓúÿÿÿÿ8ªí§±-
-wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë„Ì±8ªí§±-
-Csquid:S1948"%Make "fio" transient or serializable.(Ì¨±Ğ8«í§±-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÓÓì8¿¡‹ô²-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ‰¤‰8¿¡‹ô²-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©éË8¿¡‹ô²-
+isquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(ø´ÀÈ8¿¡‹ô²-
+isquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(†í³½8¿¡‹ô²-
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(’ÑÍò8¿¡‹ô²-
+isquid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(ı‡»Ì8¿¡‹ô²-
+isquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(ôÌ°¸8¿¡‹ô²-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë„Ì±8ªí§±-
+jsquid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(†À”©8¿¡‹ô²-
+nsquid:CommentedOutCodeLinen"<This block of commented-out lines of code should be removed.(ÎÀ»úÿÿÿÿ8¿¡‹ô²-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯ Œ•ùÿÿÿÿ8¿¡‹ô²-
+nsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(÷™À±øÿÿÿÿ8¿¡‹ô²-
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(Ù´ÇÚ8¿¡‹ô²-
+hsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(öªõ[8¿¡‹ô²-
+nsquid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(ÒÉÉÜøÿÿÿÿ8¿¡‹ô²-
+|squid:S1171K"YMove the contents of this initializer to a standard constructor or to field initializers.(öÒÓúÿÿÿÿ8ªí§±-
+isquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(„øÅª8¿¡‹ô²-
+nsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ8¿¡‹ô²-
+isquid:CommentedOutCodeLineW"<This block of commented-out lines of code should be removed.(ëùÉ8¿¡‹ô²-
+osquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(ã¯ïŠıÿÿÿÿ8¿¡‹ô²-
+osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¿¡‹ô²-
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ç„èœÿÿÿÿÿ8¿¡‹ô²-
