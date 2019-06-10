@@ -133,6 +133,21 @@ public class LoadUserResultsController {
     }
 
     @FXML
+    void helpAbout(ActionEvent event) {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/fxml/about.fxml"));
+        try {
+            fxmlLoader.load();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Parent root = fxmlLoader.getRoot();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root,525, 340));
+        stage.show();
+    }
+
+    @FXML
     void findTestAction(ActionEvent event) {
 
     }

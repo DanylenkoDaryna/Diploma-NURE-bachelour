@@ -2,65 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d21d16d1-d87c-4ea9-9844-8538324ec170" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/cognitive/CognitiveCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/cognitive/Relation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/GroupCategoryService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/GroupService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/ResultService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/TestCategoryService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/TestService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a20bbe3607996cfa7756176554ac720ffe3990d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a20bbe3607996cfa7756176554ac720ffe3990d" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed43f93cc1cf3cafe6c5dfb58622a44b68a86bc" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed43f93cc1cf3cafe6c5dfb58622a44b68a86bc" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/298302386103274c48c087e4d11efdec74ed65f0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/298302386103274c48c087e4d11efdec74ed65f0" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/306821b4776f5b874c724d9c0d8730c7364bec86" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/306821b4776f5b874c724d9c0d8730c7364bec86" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb761a897d868d8be820577db6d67585bc3c631" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb761a897d868d8be820577db6d67585bc3c631" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cb9a86e8ca81c9afcea91001d76ee4cc06a4ce0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cb9a86e8ca81c9afcea91001d76ee4cc06a4ce0" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e022d7b93879b00b8556283ec5b3a9e9fef8a6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3e022d7b93879b00b8556283ec5b3a9e9fef8a6" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5749223fc4478ad8ef20c9da9d92bf45ddafcdb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5749223fc4478ad8ef20c9da9d92bf45ddafcdb" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/AboutController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/fxml/about.fxml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/GroupCategoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/GroupCategoryDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/GroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/GroupDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/HibernateUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ICategoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ICategoryDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/IGroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/IGroupDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ITestDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ITestDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/IUserDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/IUserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ResultDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/ResultDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/TestCategoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/TestCategoryDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/TestDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/TestDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Group.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Group.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/GroupCategory.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/GroupCategory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Result.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Result.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Test.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/TestCategory.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/TestCategory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/TestSystem.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/TestSystem.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/User.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/Main.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/Main.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/controller/Controller$1.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/controller/Controller$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/controller/Controller.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/controller/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/dao/HibernateUtil.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/dao/HibernateUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Group.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Group.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/GroupCategory.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/GroupCategory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Result.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Result.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Test.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/Test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/TestCategory.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/TestCategory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/TestSystem.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/TestSystem.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/User$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/User$Username.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/User.class" afterPath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/data/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/nure/ki/cards/controller/LoadUserResultsController.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,12 +27,38 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LoadUserResults.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="108" column="12" lean-forward="true" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="107" column="12" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CognitiveCard.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/sample.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -89,31 +67,68 @@
       <file leaf-file-name="LoadUserResultsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="259" column="64" lean-forward="false" selection-start-line="259" selection-start-column="64" selection-end-line="259" selection-end-column="64" />
+            <state relative-caret-position="199">
+              <caret line="147" column="5" lean-forward="false" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#closeAction#0;class#LoadUserResultsController#0" expanded="false" />
+                <element signature="method#helpAbout#0;class#LoadUserResultsController#0" expanded="false" />
                 <element signature="method#findTestAction#0;class#LoadUserResultsController#0" expanded="false" />
                 <element signature="method#goInMainWindow#0;class#LoadUserResultsController#0" expanded="false" />
                 <element signature="method#generateCard#0;class#LoadUserResultsController#0" expanded="false" />
                 <element signature="method#gotItButton#0;class#LoadUserResultsController#0" expanded="false" />
-                <element signature="e#4794#5487#0" expanded="false" />
-                <element signature="e#5527#6119#0" expanded="false" />
-                <element signature="e#6158#6715#0" expanded="false" />
+                <element signature="e#5250#5943#0" expanded="false" />
+                <element signature="e#5983#6575#0" expanded="false" />
+                <element signature="e#6614#7171#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="18" />
+              <folding>
+                <element signature="method#helpAbout#0;class#CardWindowController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="method#uploadZipAction#0;class#Controller#0" expanded="false" />
+                <element signature="method#initialize#0;class#Controller#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/about.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/AboutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,12 +192,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/cognitive/CognitiveCard.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/AboutController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/about.fxml" />
       </list>
     </option>
   </component>
@@ -581,28 +598,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/data/TestSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -776,17 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/cognitive/CognitiveCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -803,24 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -962,42 +928,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/AboutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="108" column="12" lean-forward="true" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="259" column="64" lean-forward="false" selection-start-line="259" selection-start-column="64" selection-end-line="259" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#closeAction#0;class#LoadUserResultsController#0" expanded="false" />
-            <element signature="method#findTestAction#0;class#LoadUserResultsController#0" expanded="false" />
-            <element signature="method#goInMainWindow#0;class#LoadUserResultsController#0" expanded="false" />
-            <element signature="method#generateCard#0;class#LoadUserResultsController#0" expanded="false" />
-            <element signature="method#gotItButton#0;class#LoadUserResultsController#0" expanded="false" />
-            <element signature="e#4794#5487#0" expanded="false" />
-            <element signature="e#5527#6119#0" expanded="false" />
-            <element signature="e#6158#6715#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="143">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="method#uploadZipAction#0;class#Controller#0" expanded="false" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/CardWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="method#helpAbout#0;class#CardWindowController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/nure/ki/cards/controller/LoadUserResultsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="147" column="5" lean-forward="false" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#closeAction#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="method#helpAbout#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="method#findTestAction#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="method#goInMainWindow#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="method#generateCard#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="method#gotItButton#0;class#LoadUserResultsController#0" expanded="false" />
+            <element signature="e#5250#5943#0" expanded="false" />
+            <element signature="e#5983#6575#0" expanded="false" />
+            <element signature="e#6614#7171#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CognitiveCard.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/LoadUserResults.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="107" column="12" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/about.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
