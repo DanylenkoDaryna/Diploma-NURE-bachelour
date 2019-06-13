@@ -17,7 +17,10 @@ public class HibernateUtil {
                 .addAnnotatedClass(ua.nure.ki.cards.data.Group.class)
                 .addAnnotatedClass(ua.nure.ki.cards.data.GroupCategory.class)
                 .addAnnotatedClass(ua.nure.ki.cards.data.Test.class)
-                .addAnnotatedClass(ua.nure.ki.cards.data.TestCategory.class);
+                .addAnnotatedClass(ua.nure.ki.cards.data.TestCategory.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.Topic.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.Qdependency.class)
+                .addAnnotatedClass(ua.nure.ki.cards.data.Question.class);
         StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder()
                 .applySettings(configuration.getProperties());
         return configuration.buildSessionFactory(builder.build());

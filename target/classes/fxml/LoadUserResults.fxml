@@ -21,7 +21,6 @@
                 <Menu mnemonicParsing="false" text="File">
                     <items>
                   <MenuItem fx:id="File_Generate" mnemonicParsing="false" onAction="#generateCard" text="Generate cognitive card" />
-                        <MenuItem fx:id="File_Clear" mnemonicParsing="false" onAction="#findTestAction" text="Get another result" />
                   <MenuItem fx:id="File_Return" mnemonicParsing="false" onAction="#goInMainWindow" text="Return" />
                     </items></Menu>
                 <Menu mnemonicParsing="false" text="Help">

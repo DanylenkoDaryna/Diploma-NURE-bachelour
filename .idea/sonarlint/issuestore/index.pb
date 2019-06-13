@@ -65,3 +65,5 @@ k
 ;src/main/java/ua/nure/ki/cards/cognitive/CognitiveCard.java,7\c\7c0627610d1622edd635fca740d6b89e61a6fbcc
 s
 Csrc/main/java/ua/nure/ki/cards/controller/CardWindowController.java,b\7\b7cf998dbd85730a296a5c667a9abc46273d2263
+n
+>src/main/java/ua/nure/ki/cards/controller/AboutController.java,e\f\ef9b708efc1408eba13d16624d322bc69fa19aed

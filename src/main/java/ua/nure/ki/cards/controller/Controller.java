@@ -71,7 +71,7 @@ public class Controller {
         }
         Parent root = fxmlLoader.getRoot();
         Stage stage = new Stage();
-        stage.setScene(new Scene(root,1100, 600));
+        stage.setScene(new Scene(root,1126, 858));
         Image windIcon=new Image("/images/icon3.png");
         stage.getIcons().add(windIcon);
         stage.setTitle("Uploading Test results");

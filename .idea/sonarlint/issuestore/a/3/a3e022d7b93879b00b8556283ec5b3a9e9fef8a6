@@ -1,5 +1,6 @@
 
-isquid:UselessImportCheck	"9Remove this unused import 'ua.nure.ki.cards.data.Result'.(ˆÙ¶‘ûÿÿÿÿ8ÃÔ‰“²-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(â³•Ñ8Êéï’²-
-ssquid:UselessImportCheck
-"CRemove this unused import 'ua.nure.ki.cards.service.ResultService'.(¾Ïòèüÿÿÿÿ8ÃÔ‰“²-
+ssquid:UselessImportCheck"CRemove this unused import 'ua.nure.ki.cards.service.ResultService'.(¾Ïòèüÿÿÿÿ8ÃÔ‰“²-
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(â³•Ñ8Êéï’²-
+isquid:UselessImportCheck
+"9Remove this unused import 'ua.nure.ki.cards.data.Result'.(ˆÙ¶‘ûÿÿÿÿ8ÃÔ‰“²-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’àŸ¢úÿÿÿÿ8ÐŠ´´-

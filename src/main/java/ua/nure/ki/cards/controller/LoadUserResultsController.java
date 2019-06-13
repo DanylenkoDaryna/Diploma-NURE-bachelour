@@ -23,7 +23,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import ua.nure.ki.cards.cognitive.CognitiveCard;
 import ua.nure.ki.cards.data.*;
 import ua.nure.ki.cards.service.*;
 import javafx.scene.control.Button;
@@ -31,18 +33,18 @@ import javafx.scene.control.MenuBar;
 
 public class LoadUserResultsController {
 
-    protected TestSystem ts = new TestSystem();
+    private TestSystem ts = new TestSystem();
 
-    protected List<GroupCategory> groupCategoriesFxml = new ArrayList<>();
-    protected List<Group> groupsFxml = new ArrayList<>();
-    protected List<User> usersFxml = new ArrayList<>();
-    protected List<TestCategory> testCategoriesFxml = new ArrayList<>();
-    protected List<Test> testsFxml = new ArrayList<>();
-    protected List<Result> resultsFxml = new ArrayList<>();
+    private List<GroupCategory> groupCategoriesFxml = new ArrayList<>();
+    private List<Group> groupsFxml = new ArrayList<>();
+    private List<User> usersFxml = new ArrayList<>();
+    private List<TestCategory> testCategoriesFxml = new ArrayList<>();
+    private List<Test> testsFxml = new ArrayList<>();
+    private List<Result> resultsFxml = new ArrayList<>();
 
-    protected int groupId =0;
-    protected int userId=0;
-    protected int testId=0;
+    private int groupId =0;
+    private int userId=0;
+    private int testId=0;
 
     @FXML
     private ResourceBundle resources;
@@ -126,6 +128,9 @@ public class LoadUserResultsController {
     private NumberAxis y;
 
 
+    GridPane matrix = new GridPane();
+    Scene matrixScene;
+
     @FXML
     void closeAction(ActionEvent event) {
         Platform.exit();
@@ -175,21 +180,26 @@ public class LoadUserResultsController {
 
     @FXML
     void generateCard(ActionEvent event) {
-        menu_bar2.getScene().getWindow().hide();
-        FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("/fxml/CognitiveCard.fxml"));
-        try {
-            fxmlLoader.load();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Parent root = fxmlLoader.getRoot();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root,1100, 600));
-        Image windIcon=new Image("/images/icon3.png");
-        stage.getIcons().add(windIcon);
-        stage.setTitle("- - - TestSystem - - -");
-        stage.show();
+
+        CognitiveCard cognitiveCard = new CognitiveCard();
+        cognitiveCard.getDataToGenerateCard(testId);
+
+
+        ////////////////////////////////////////////////////////////////////////////////////
+//        FXMLLoader fxmlLoader = new FXMLLoader();
+//        fxmlLoader.setLocation(getClass().getResource("/fxml/CognitiveCard.fxml"));
+//        try {
+//            fxmlLoader.load();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        Parent root = fxmlLoader.getRoot();
+//        Stage stage = new Stage();
+//        stage.setScene(new Scene(root,800, 500));
+//        Image windIcon=new Image("/images/icon3.png");
+//        stage.getIcons().add(windIcon);
+//        stage.setTitle("- - - TestSystem - - -");
+//        stage.show();
     }
 
     @FXML

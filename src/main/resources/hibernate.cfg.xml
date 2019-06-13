@@ -21,6 +21,10 @@
         <mapping class="ua.nure.ki.cards.data.User"/>
         <mapping class="ua.nure.ki.cards.data.Group"/>
         <mapping class="ua.nure.ki.cards.data.GroupCategory"/>
+        <mapping class="ua.nure.ki.cards.data.Topic"/>
+        <mapping class="ua.nure.ki.cards.data.Question"/>
+        <mapping class="ua.nure.ki.cards.data.Qdependency"/>
+
 
     </session-factory>
 </hibernate-configuration>
