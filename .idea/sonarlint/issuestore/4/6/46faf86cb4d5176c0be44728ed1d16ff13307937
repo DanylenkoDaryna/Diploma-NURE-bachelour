@@ -1,0 +1,8 @@
+
+‚squid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "ansvers".(àÍÈ†úÿÿÿÿ8¾‹½Œµ-
+usquid:S2077%"RUse a variable binding mechanism to construct this query instead of concatenation.(àÍÈ†úÿÿÿÿ8½½æ¤µ-
+Psquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8Ñù¸Œµ-
+usquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(àÍÈ†úÿÿÿÿ8œ²¿Œµ-
+Xsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8Ñù¸Œµ-
+Gsquid:S19058")Remove this unnecessary cast to "Ansver".(®¶˜Í8“·è©µ-
+|squid:S14888"^Immediately return this expression instead of assigning it to the temporary variable "ansver".(®¶˜Í8™Ûé©µ-

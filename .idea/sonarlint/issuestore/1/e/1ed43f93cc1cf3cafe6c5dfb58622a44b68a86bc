@@ -1,20 +1,17 @@
 
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-isquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(©ŠâÙ8ÎãÛö²-
-wsquid:S1171."YMove the contents of this initializer to a standard constructor or to field initializers.(Ú·ğ¥8²ƒ­§±-
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-psquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8²ƒ­§±-
-\squid:UnusedPrivateMethodC"0Remove this unused private "Result" constructor.(¹Ãš©8²ƒ­§±-
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-psquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8²ƒ­§±-
-psquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8²ƒ­§±-
-psquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8‚ÜÃ§±-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€½ËÌøÿÿÿÿ8ÎãÛö²-
-nsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(Š“‰–ıÿÿÿÿ8ÎãÛö²-
-psquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8²ƒ­§±-
-psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8ı›Í§±-
-nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(Í­Ò¡üÿÿÿÿ8ÎãÛö²-
-nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(×ÆÀşÿÿÿÿ8ÎãÛö²-
-asquid:S00107C"BConstructor has 13 parameters, which is greater than 7 authorized.(¹Ãš©8ÎãÛö²-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Š“‰–ıÿÿÿÿ8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+Zsquid:UnusedPrivateMethod"0Remove this unused private "Result" constructor.(¹Ãš©8øí¦‚µ-
+usquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Ú·ğ¥8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù÷¿8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8øí¦‚µ-
+_squid:S00107"BConstructor has 13 parameters, which is greater than 7 authorized.(¹Ãš©8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8øí¦‚µ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í­Ò¡üÿÿÿÿ8øí¦‚µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ãš©8øí¦‚µ-

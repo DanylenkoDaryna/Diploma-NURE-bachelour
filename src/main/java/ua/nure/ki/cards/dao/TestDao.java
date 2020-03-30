@@ -37,8 +37,8 @@ public class TestDao implements ITestDao {
 
     @Override
     public Object findById(Integer id) {
-        TestDao testDao = (TestDao) getCurrentSession().get(TestDao.class, id);
-        return testDao;
+        Test test = (Test) getCurrentSession().get(Test.class, id);
+        return test;
     }
 
     @Override

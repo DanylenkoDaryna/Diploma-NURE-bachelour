@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -45,6 +46,7 @@ public class LoadUserResultsController {
     private int groupId =0;
     private int userId=0;
     private int testId=0;
+    private int resultId=0;
 
     @FXML
     private ResourceBundle resources;
@@ -59,7 +61,7 @@ public class LoadUserResultsController {
     private MenuItem File_Generate;
 
     @FXML
-    private MenuItem File_Clear;
+    private MenuItem menu_clearSettings;
 
     @FXML
     private MenuItem File_Return;
@@ -127,6 +129,9 @@ public class LoadUserResultsController {
     @FXML
     private NumberAxis y;
 
+    @FXML
+    private TextArea textArea_advice;
+
 
     GridPane matrix = new GridPane();
     Scene matrixScene;
@@ -153,11 +158,6 @@ public class LoadUserResultsController {
     }
 
     @FXML
-    void findTestAction(ActionEvent event) {
-
-    }
-
-    @FXML
     void goInMainWindow(ActionEvent event) {
 
         menu_bar2.getScene().getWindow().hide();
@@ -178,28 +178,23 @@ public class LoadUserResultsController {
 
     }
 
+
     @FXML
     void generateCard(ActionEvent event) {
 
         CognitiveCard cognitiveCard = new CognitiveCard();
         cognitiveCard.getDataToGenerateCard(testId);
+        Result res=new Result();
+        for(Result r:resultsFxml){
+            if(r.getResultId()==resultId)
+                res=r;
+        }
+
+        StringBuilder advise = new StringBuilder();
+        advise.append(cognitiveCard.createRelations(resultsFxml, res, testId, testsFxml));
+        textArea_advice.appendText(advise.toString().replaceAll("\\<[^>]+\\>", ""));
 
 
-        ////////////////////////////////////////////////////////////////////////////////////
-//        FXMLLoader fxmlLoader = new FXMLLoader();
-//        fxmlLoader.setLocation(getClass().getResource("/fxml/CognitiveCard.fxml"));
-//        try {
-//            fxmlLoader.load();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        Parent root = fxmlLoader.getRoot();
-//        Stage stage = new Stage();
-//        stage.setScene(new Scene(root,800, 500));
-//        Image windIcon=new Image("/images/icon3.png");
-//        stage.getIcons().add(windIcon);
-//        stage.setTitle("- - - TestSystem - - -");
-//        stage.show();
     }
 
     @FXML
@@ -208,23 +203,54 @@ public class LoadUserResultsController {
         choicebox_GroupCategory.setDisable(false);
         label_GroupCategory.setDisable(false);
 
+        choicebox_Result.getItems().removeAll();
+        choicebox_Test.getItems().removeAll();
+        choicebox_TestCategory.getItems().removeAll();
+        choicebox_User.getItems().removeAll();
+        choicebox_Group.getItems().removeAll();
+
         GroupCategoryService gcs= new GroupCategoryService();
         groupCategoriesFxml=gcs.findAll();
         ts.setSysGroupCategories(groupCategoriesFxml);
+
         for(int i =0; i<ts.getSysGroupCategories().size(); i++) {
             choicebox_GroupCategory.getItems().add(ts.getSysGroupCategories().get(i));
         }
+        button_dialog.setDisable(true);
+
     }
+
+    @FXML
+    void clearChoosen(ActionEvent press) {
+
+        choicebox_GroupCategory.getItems().clear();
+        choicebox_Group.getItems().clear();
+        choicebox_User.getItems().clear();
+        choicebox_TestCategory.getItems().clear();
+        choicebox_Test.getItems().clear();
+        choicebox_Result.getItems().clear();
+        button_dialog.setDisable(false);
+        res_Out.clear();
+    }
+
 
     @FXML
     void initialize() {
 
         choicebox_GroupCategory.setOnAction(event -> {
+
             choicebox_Group.setDisable(false);
             label_Group.setDisable(false);
+            choicebox_Result.getItems().clear();
+            choicebox_Test.getItems().clear();
+            choicebox_TestCategory.getItems().clear();
+            choicebox_User.getItems().clear();
+            res_Out.clear();
+
             GroupCategory gc= choicebox_GroupCategory.getValue();
             GroupService gs= new GroupService();
 
+            choicebox_Group.getItems().clear();
             for(int i=0; i<ts.getSysGroupCategories().size(); i++){
                 if(ts.getSysGroupCategories().get(i).getGrCategId()==gc.getGrCategId()){
                     groupsFxml=gs.findAllbyId(gc.getGrCategId());
@@ -240,10 +266,16 @@ public class LoadUserResultsController {
         choicebox_Group.setOnAction(event -> {
             choicebox_User.setDisable(false);
             label_User.setDisable(false);
+            choicebox_Result.getItems().clear();
+            choicebox_Test.getItems().clear();
+            choicebox_TestCategory.getItems().clear();
+            res_Out.clear();
+
             Group group= choicebox_Group.getValue();
             groupId=group.getGroupId();
             UserService service= new UserService();
 
+            choicebox_User.getItems().clear();
             for(int i=0; i<groupsFxml.size(); i++){
                 if(groupsFxml.get(i).getGroupId()==groupId){
                     usersFxml=service.findAllbyId(groupId);
@@ -257,20 +289,31 @@ public class LoadUserResultsController {
         });
 
         choicebox_User.setOnAction(event -> {
+
             choicebox_TestCategory.setDisable(false);
             label_TestCategory.setDisable(false);
+
+            choicebox_Result.getItems().clear();
+            choicebox_Test.getItems().clear();
+            res_Out.clear();
+
             User user=choicebox_User.getValue();
             userId=user.getUserId();
             TestCategoryService service= new TestCategoryService();
             testCategoriesFxml=service.findAll();
             ts.setSysTestCategories(testCategoriesFxml);
+            choicebox_TestCategory.getItems().clear();
             for(int i =0; i<ts.getSysTestCategories().size(); i++) {
                 choicebox_TestCategory.getItems().add(ts.getSysTestCategories().get(i));
             }
         });
 
         choicebox_TestCategory.setOnAction(event -> {
+
             choicebox_Test.setDisable(false);
+            choicebox_Result.getItems().clear();
+            res_Out.clear();
+
             label_Test.setDisable(false);
             TestCategory testCategory= choicebox_TestCategory.getValue();
             TestService service= new TestService();
@@ -280,13 +323,14 @@ public class LoadUserResultsController {
                     testsFxml=service.findAllbyId(testCategory.getTestCategId());
                 }
             }
-
+            choicebox_Test.getItems().clear();
             for(int i=0; i<testsFxml.size(); i++) {
                 choicebox_Test.getItems().add(testsFxml.get(i));
             }
         });
 
         choicebox_Test.setOnAction(event -> {
+
             choicebox_Result.setDisable(false);
             label_Result.setDisable(false);
             Test test = choicebox_Test.getValue();
@@ -299,8 +343,18 @@ public class LoadUserResultsController {
                 }
             }
 
+            List<Integer> ids= new ArrayList<>();
+            for(Result res:resultsFxml){
+                ids.add(res.getResultId());
+            }
+            int maxResId= Collections.max(ids);
+            //добавляем только последний результат ибо по предыдущим невозможно найти ответ из бд
+            choicebox_Result.getItems().clear();
+            res_Out.clear();
             for(int i=0; i<resultsFxml.size(); i++) {
+                if(resultsFxml.get(i).getResultId()==maxResId){
                 choicebox_Result.getItems().add(resultsFxml.get(i));
+                }
             }
 
             XYChart.Series<Number, Number> series1 = new XYChart.Series<>();
@@ -320,14 +374,17 @@ public class LoadUserResultsController {
 
 
         choicebox_Result.setOnAction(event -> {
+
             Result result = choicebox_Result.getValue();
+            resultId=result.getResultId();
            // resultsFxml
                     res_Out.appendText("Result \n" + "Your mark is " +
                             result.getMark() + "\n" +
-                            "In percents" + result.getPercent() + "\n" +
-                            "Testing time  is " + result.getTimeOfTest() + "\n"
+                            "In percents " + result.getPercent() + "%\n" +
+                            "Testing time  is " + result.getTimeOfTest() + "s.\n"
 
                     );
+            File_Generate.setDisable(false);
 
         });
 

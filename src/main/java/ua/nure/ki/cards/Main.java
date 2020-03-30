@@ -20,26 +20,15 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
-        primaryStage.setTitle("- - - TestSystem - - -");
+        primaryStage.setTitle("- - - Analysing Test System - - -");
         Image windIcon=new Image("/images/icon3.png");
         primaryStage.getIcons().add(windIcon);
-        primaryStage.setScene(new Scene(root, 1100, 600));
+        primaryStage.setScene(new Scene(root, 900, 600));
         primaryStage.show();
-        /////////////////////////////////////////////////////////////
-//        final WebView webView = new WebView();
-//        webView.getEngine().load("http://www.jgraph.com/demo/mxgraph/editors/workfloweditor.html");
-//        primaryStage.setScene(new Scene(webView, 800, 800));
-//        primaryStage.show();
-        /////////////////////////////////////////////////////////////
+
     }
 
     public static void main(String[] args) throws Exception {
         launch(args);
-//        LocalDateTime date = LocalDateTime.now();
-//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd h:m:s");
-//        String text = date.format(formatter);
-//
     }
-
-
 }

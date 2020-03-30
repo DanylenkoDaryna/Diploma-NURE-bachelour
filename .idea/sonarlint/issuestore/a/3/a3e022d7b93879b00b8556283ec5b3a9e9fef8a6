@@ -1,6 +1,7 @@
 
-ssquid:UselessImportCheck"CRemove this unused import 'ua.nure.ki.cards.service.ResultService'.(¾Ïòèüÿÿÿÿ8ÃÔ‰“²-
-isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(â³•Ñ8Êéï’²-
-isquid:UselessImportCheck
-"9Remove this unused import 'ua.nure.ki.cards.data.Result'.(ˆÙ¶‘ûÿÿÿÿ8ÃÔ‰“²-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’àŸ¢úÿÿÿÿ8ĞŠ´´-
+gsquid:UselessImportCheck"9Remove this unused import 'ua.nure.ki.cards.data.Result'.(ˆÙ¶‘ûÿÿÿÿ8•®”³µ-
+hsquid:UselessImportCheck"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8•®”³µ-
+gsquid:UselessImportCheck"9Remove this unused import 'javafx.scene.layout.GridPane'.(ÖÀ¹¯ûÿÿÿÿ8•®”³µ-
+^squid:UselessImportCheck"5Remove this unused import 'javafx.scene.web.WebView'.(¸­¬Ñ8•®”³µ-
+bsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8•®”³µ-
+qsquid:UselessImportCheck"CRemove this unused import 'ua.nure.ki.cards.service.ResultService'.(¾Ïòèüÿÿÿÿ8•®”³µ-

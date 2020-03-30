@@ -24,6 +24,10 @@
         <mapping class="ua.nure.ki.cards.data.Topic"/>
         <mapping class="ua.nure.ki.cards.data.Question"/>
         <mapping class="ua.nure.ki.cards.data.Qdependency"/>
+        <mapping class="ua.nure.ki.cards.data.Ansver"/>
+        <mapping class="ua.nure.ki.cards.data.TestsEthalon"/>
+        <mapping class="ua.nure.ki.cards.data.TestDependency"/>
+        <mapping class="ua.nure.ki.cards.data.ResultAnsver"/>
 
 
     </session-factory>

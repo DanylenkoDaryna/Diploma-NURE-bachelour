@@ -1,0 +1,7 @@
+
+usquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(šúÆ’ûÿÿÿÿ8­³ìŒµ-
+Psquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8­³ìŒµ-
+usquid:S2077$"RUse a variable binding mechanism to construct this query instead of concatenation.(šúÆ’ûÿÿÿÿ8ïôâ™µ-
+Xsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8­³ìŒµ-
+ƒsquid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "ethalons".(šúÆ’ûÿÿÿÿ8•šğŒµ-
+Rsquid:EmptyStatementUsageCheck*"Remove this empty statement.(Åñ­õşÿÿÿÿ8„îó™µ-

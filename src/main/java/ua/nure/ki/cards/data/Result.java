@@ -11,8 +11,6 @@ public class Result implements Serializable {
     @Column(name = "result_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int resultId;
-//    @Column(name = "user_id")
-//    private int userId;
     @Column(name = "test_id")
     private int testId;
     @Column(name = "group_id")
@@ -47,7 +45,7 @@ public class Result implements Serializable {
 
     /* инфа будет о результатах*/
 
-    private Result(){
+    public Result(){
         this.setResultId(0);
         //this.setUserId(0);
         this.setTestId(0);

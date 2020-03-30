@@ -1,0 +1,6 @@
+
+usquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(Ù¸¨™ùÿÿÿÿ8Î–à‘µ-
+„squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "questions".(Ù¸¨™ùÿÿÿÿ8Î–à‘µ-
+Psquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8Î–à‘µ-
+Xsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8Î–à‘µ-
+Isquid:S1168""+Return an empty collection instead of null.(¥¹ï8Î–à‘µ-

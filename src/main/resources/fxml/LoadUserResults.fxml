@@ -9,18 +9,18 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TextArea?>
-<?import javafx.scene.effect.Glow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.nure.ki.cards.controller.LoadUserResultsController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="858.0" prefWidth="1126.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.nure.ki.cards.controller.LoadUserResultsController">
     <top>
         <MenuBar fx:id="menu_bar2" BorderPane.alignment="CENTER">
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
-                  <MenuItem fx:id="File_Generate" mnemonicParsing="false" onAction="#generateCard" text="Generate cognitive card" />
+                  <MenuItem fx:id="File_Generate" disable="true" mnemonicParsing="false" onAction="#generateCard" text="Generate cognitive card" />
+                  <MenuItem fx:id="menu_clear" mnemonicParsing="false" onAction="#clearChoosen" text="Clear" />
                   <MenuItem fx:id="File_Return" mnemonicParsing="false" onAction="#goInMainWindow" text="Return" />
                     </items></Menu>
                 <Menu mnemonicParsing="false" text="Help">
@@ -33,7 +33,7 @@
         </MenuBar>
     </top>
     <bottom>
-        <Label fx:id="label_Creator" text="© ХНУРЭ, 2019. Все права защищены. Не коммерческое приложение. @delibertato" BorderPane.alignment="CENTER">
+        <Label fx:id="label_Creator" text="© NURE, 2019. All rights reserved. Non-commercial project. @delibertato" BorderPane.alignment="CENTER">
             <font>
                 <Font name="Castellar" size="13.0" />
             </font>
@@ -43,13 +43,10 @@
         <AnchorPane prefHeight="557.0" prefWidth="999.0" BorderPane.alignment="CENTER">
             <children>
             <ChoiceBox fx:id="choicebox_GroupCategory" disable="true" layoutX="257.0" layoutY="103.0" prefHeight="25.0" prefWidth="319.0" />
-                <Label fx:id="label_title" layoutX="248.0" layoutY="14.0" prefHeight="44.0" prefWidth="410.0" text="Choose interested settings and then click OK ">
+                <Label fx:id="label_title" layoutX="160.0" layoutY="14.0" prefHeight="44.0" prefWidth="689.0" text="Choose interested settings and then click  'File' -&gt; 'Generate cognitive card' ">
                <font>
                   <Font name="Elephant" size="18.0" />
                </font>
-               <effect>
-                  <Glow />
-               </effect>
             </Label>
             <ChoiceBox fx:id="choicebox_Group" disable="true" layoutX="256.0" layoutY="144.0" prefHeight="25.0" prefWidth="319.0" />
             <ChoiceBox fx:id="choicebox_User" disable="true" layoutX="255.0" layoutY="184.0" prefHeight="25.0" prefWidth="320.0" />
@@ -65,37 +62,37 @@
                   <Font name="Times New Roman" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="label_User" alignment="TOP_CENTER" disable="true" layoutX="22.0" layoutY="184.0" prefHeight="26.0" prefWidth="183.0" style="-fx-background-color: #FFFFFF;" text="choose User">
+            <Label fx:id="label_User" alignment="TOP_CENTER" disable="true" layoutX="22.0" layoutY="184.0" prefHeight="26.0" prefWidth="186.0" style="-fx-background-color: #FFFFFF;" text="choose User">
                <font>
                   <Font name="Times New Roman" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="label_TestCategory" alignment="TOP_CENTER" disable="true" layoutX="20.0" layoutY="219.0" prefHeight="26.0" prefWidth="181.0" style="-fx-background-color: #FFFFFF;" text="choose Test Category">
+            <Label fx:id="label_TestCategory" alignment="TOP_CENTER" disable="true" layoutX="20.0" layoutY="219.0" prefHeight="26.0" prefWidth="189.0" style="-fx-background-color: #FFFFFF;" text="choose Test Category">
                <font>
                   <Font name="Times New Roman" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="label_Test" alignment="TOP_CENTER" disable="true" layoutX="21.0" layoutY="254.0" prefHeight="26.0" prefWidth="180.0" style="-fx-background-color: #FFFFFF;" text="choose Test" textAlignment="CENTER">
+            <Label fx:id="label_Test" alignment="TOP_CENTER" disable="true" layoutX="21.0" layoutY="254.0" prefHeight="26.0" prefWidth="189.0" style="-fx-background-color: #FFFFFF;" text="choose Test" textAlignment="CENTER">
                <font>
                   <Font name="Times New Roman" size="16.0" />
                </font>
             </Label>
-            <TextArea fx:id="res_Out" editable="false" layoutX="17.0" layoutY="346.0" prefHeight="189.0" prefWidth="560.0">
+            <TextArea fx:id="res_Out" editable="false" layoutX="18.0" layoutY="330.0" prefHeight="166.0" prefWidth="585.0">
                <font>
                   <Font name="Times New Roman" size="14.0" />
                </font>
             </TextArea>
-            <Button fx:id="button_dialog" layoutX="667.0" layoutY="14.0" mnemonicParsing="false" onAction="#gotItButton" prefHeight="42.0" prefWidth="123.0" text="Got it">
+            <Button fx:id="button_dialog" layoutX="849.0" layoutY="15.0" mnemonicParsing="false" onAction="#gotItButton" prefHeight="42.0" prefWidth="123.0" text="Got it">
                <font>
                   <Font name="Elephant" size="18.0" />
                </font></Button>
-            <Label fx:id="label_Result" alignment="TOP_CENTER" disable="true" layoutX="21.0" layoutY="289.0" prefHeight="26.0" prefWidth="180.0" style="-fx-background-color: #FFFFFF;" text="choose Result" textAlignment="CENTER">
+            <Label fx:id="label_Result" alignment="TOP_CENTER" disable="true" layoutX="21.0" layoutY="289.0" prefHeight="26.0" prefWidth="189.0" style="-fx-background-color: #FFFFFF;" text="choose Result" textAlignment="CENTER">
                <font>
                   <Font name="Times New Roman" size="16.0" />
                </font>
             </Label>
             <ChoiceBox fx:id="choicebox_Result" disable="true" layoutX="252.0" layoutY="290.0" prefHeight="25.0" prefWidth="323.0" />
-            <LineChart fx:id="results_chart" layoutX="601.0" layoutY="109.0" prefHeight="387.0" prefWidth="477.0" title="Results chart">
+            <LineChart fx:id="results_chart" layoutX="601.0" layoutY="109.0" prefHeight="408.0" prefWidth="513.0" title="Results chart">
               <xAxis>
                 <NumberAxis side="BOTTOM" fx:id="x" />
               </xAxis>
@@ -103,6 +100,11 @@
                 <NumberAxis fx:id="y" side="LEFT" />
               </yAxis>
             </LineChart>
+            <TextArea fx:id="textArea_advice" editable="false" layoutX="21.0" layoutY="522.0" prefHeight="277.0" prefWidth="665.0" promptText="Your advises would appear here. Just choose test and click &quot;Create Cognitive card in main menu&quot;">
+               <font>
+                  <Font name="Times New Roman" size="15.0" />
+               </font>
+            </TextArea>
             </children></AnchorPane>
    </center>
 </BorderPane>

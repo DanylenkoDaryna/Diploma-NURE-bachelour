@@ -1,0 +1,5 @@
+
+Xsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8ËÈ¿‚µ-
+Psquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8ËÈ¿‚µ-
+osquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(…ŸğG8ê§Æ‚µ-
+|squid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "depends".(…ŸğG8–ûÃ‚µ-

@@ -13,18 +13,22 @@ public class Question implements Serializable {
     private int questionId;
     @Column(name = "topic_id")
     private int topicId;
+    @Column(name = "question_text")
+    private String questionText;
     @Column(name = "question_difficulty")
     private int questionDifficulty;
 
 public Question(){
         this.setQuestionId(0);
         this.setTopicId(0);
+        this.setQuestionText("hhu");
         this.setQuestionDifficulty(0);
     }
 
-    public Question(int QuestionId, int TopicId, int QuestionDifficulty){
+    public Question(int QuestionId, int TopicId, String QuestionTex, int QuestionDifficulty){
         this.setQuestionId(QuestionId);
         this.setTopicId(TopicId);
+        this.setQuestionText(QuestionTex);
         this.setQuestionDifficulty(QuestionDifficulty);
     }
 
@@ -51,6 +55,14 @@ public Question(){
 
     public void setTopicId(int topicId) {
         this.topicId = topicId;
+    }
+
+    public String getQuestionText() {
+        return questionText;
+    }
+
+    public void setQuestionText(String questionText) {
+        this.questionText = questionText;
     }
 
     public int getQuestionDifficulty() {

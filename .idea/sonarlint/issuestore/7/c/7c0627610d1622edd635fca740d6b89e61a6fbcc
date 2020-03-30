@@ -1,3 +1,19 @@
 
-psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—·ß¤8ˆışó³-
-psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—·ß¤8Áãşó³-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÒÅé†úÿÿÿÿ8ÎËÁ¯¶-
+csquid:S2184"BCast one of the operands of this division operation to a "double".(ÅúëËüÿÿÿÿ8ÎËÁ¯¶-
+Fsquid:S2185"%Remove this silly call to "Math.ceil"(ÅúëËüÿÿÿÿ8ÀÛÇ¯µ-
+Fsquid:S2185"%Remove this silly call to "Math.ceil"(ÅúëËüÿÿÿÿ8ÎËÁ¯¶-
+qsquid:S1192"PDefine a constant instead of duplicating this literal "The answer for " 8 times.(¬‰Îøúÿÿÿÿ8ÎËÁ¯¶-
+Asquid:S2185"%Remove this silly call to "Math.ceil"(Ôé•ú8ÎËÁ¯¶-
+Jsquid:S1172".Remove this unused method parameter "results".(€°¶ä8ÿ²ŒŒµ-
+^squid:S2184"BCast one of the operands of this division operation to a "double".(Ôé•ú8ÎËÁ¯¶-
+^squid:S2184"BCast one of the operands of this division operation to a "double".(Ôé•ú8ÎËÁ¯¶-
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(êüÁÛ8ÎËÁ¯¶-
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.( äŸ£8ÎËÁ¯¶-
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.( äŸ£8ÎËÁ¯¶-
+Asquid:S2185"%Remove this silly call to "Math.ceil"(Ôé•ú8ÎËÁ¯¶-
+Rsquid:S1068"1Remove this unused "tDependencies" private field.(«øòıÿÿÿÿ8ªæ÷‹µ-
+csquid:S2184"BCast one of the operands of this division operation to a "double".(ÅúëËüÿÿÿÿ8ÀÛÇ¯µ-
+xsquid:S1450"WRemove the "ethalons" field and declare it as a local variable in the relevant methods.(À–´øÿÿÿÿ8äêË™µ-
+Isquid:S1172"-Remove this unused method parameter "ansver".(êüÁÛ8ÎËÁ¯¶-
+Lsquid:S1068"+Remove this unused "ansvers" private field.(Ä„õïûÿÿÿÿ8¤»Ë©µ-

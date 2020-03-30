@@ -27,7 +27,6 @@ public class TopicDao {
 
     public List findBy(int Testid) {
         List<Topic> topics =  (List<Topic>) getCurrentSession().createQuery("from Topic Top where Top.testId = " + Testid ).list();
-       // List<Topic> topics =  (List<Topic>) getCurrentSession().createQuery("select from Topic Top where Top.testId=" + Testid).list();
         return topics;
     }
 

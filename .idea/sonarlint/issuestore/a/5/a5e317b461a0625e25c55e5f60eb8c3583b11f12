@@ -1,10 +1,10 @@
 
-Isquid:S11680"+Return an empty collection instead of null.(¥¹ï8¸ÿœÎ±-
-psquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8Ã™ßö²-
-psquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8Ã™ßö²-
-Xsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8îÛ®š²-
-psquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8Ã™ßö²-
-{squid:S1488*"^Immediately return this expression instead of assigning it to the temporary variable "result".(âÙ²8ø’ÔÎ±-
-…squid:S14884"bImmediately return this expression instead of assigning it to the temporary variable "groupTypes".(¶×Ìüÿÿÿÿ8²¡İö²-
-Psquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8¶ï¥š²-
-usquid:S20774"RUse a variable binding mechanism to construct this query instead of concatenation.(¶×Ìüÿÿÿÿ8»Úáö²-
+ysquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(âÙ²8ëñÎ„µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8ëñÎ„µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8ëñÎ„µ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ëñÎ„µ-
+Nsquid:S2440"-Remove this instantiation of "HibernateUtil".(ÀáÅ’ûÿÿÿÿ8ëñÎ„µ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¨¸³8ëñÎ„µ-
+ƒsquid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "groupTypes".(¶×Ìüÿÿÿÿ8ëñÎ„µ-
+Vsquid:S2209"5Change this instance-reference to a static reference.(Ë¯Íãÿÿÿÿÿ8ëñÎ„µ-
+ssquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(¶×Ìüÿÿÿÿ8ëñÎ„µ-

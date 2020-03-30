@@ -48,6 +48,7 @@ public class ResultDao implements IResultDao {
         return null;
     }
 
+
     public List findAllby(Integer GroupId, Integer UserId, Integer TestId){
         List<Result> groupTypes = (List<Result>) getCurrentSession().createQuery("from Result R " +
                 "where R.groupId = " + GroupId + " and R.concreteUser.userId = "+UserId + " and R.testId = " + TestId).list();
